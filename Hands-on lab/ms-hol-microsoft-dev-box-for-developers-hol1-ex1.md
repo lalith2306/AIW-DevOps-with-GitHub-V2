@@ -73,7 +73,7 @@ In this task, you'll configure the network connection using Dev Center. Network 
 -  **Subnet**: subnet1
 -  Click on **Review+create**
 
-      ![](media/configure-network-connection.png)
+      ![](media/configure- network-connection.png)
 
 3. Now from left-hand side pane, click on **Networking** under Dev box configuration, and then click on **+ Add**.
 
