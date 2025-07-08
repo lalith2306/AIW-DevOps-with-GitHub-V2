@@ -61,7 +61,7 @@ In this task, you'll configure the network connection using Dev Center. Network 
 
 1. Now in **Microsoft Dev Box** from the left-hand pane, click on **Network Connections (1)**, and then click on **+Create (2)**. 
 
-      ![](media/configure-%20network-connection.png)
+      ![](media/create-network-connection.png)
 
 2. Now under the **Create a network connection** window, except **Name** these below details will be there by default.
 
