@@ -78,7 +78,7 @@ In this task, you'll configure the network connection using Dev Center. Network 
 
       ![](media/configure-network-connection.png)
 
-3. Now from left-hand side pane, click on **Networking** under Dev box configuration, and then click on **+ Add**.
+3. Now from left-hand side pane under devcenter, click on **Networking** under Dev box configuration, and then click on **+ Add**.
 
       ![](media/e117.png)
 
