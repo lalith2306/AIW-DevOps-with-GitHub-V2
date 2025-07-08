@@ -35,7 +35,7 @@ In this task, you'll create a Dev box definition. Dev box definitions define the
 
    - Name: **devboxdef-01** **(1)**
 
-   - Image: **Windows 11 Enterprise + Microsoft 365 Apps 21H2 | Hibernate supported** **(2)**
+   - Image: **Windows 11 Enterprise + Microsoft 365 Apps 22H2 | Hibernate supported** **(2)**
 
    - Image version: **Latest** **(3)**
 
@@ -59,11 +59,17 @@ In this task, you'll create a Dev box definition. Dev box definitions define the
 
 In this task, you'll configure the network connection using Dev Center. Network connections determine the region into which dev boxes are deployed and allow them to be connected to your existing virtual networks.
 
-1. Now from left-hand side pane, click on **Networking** under Dev box configuration, and then click on **+ Add**.
+1. Now in **Microsoft Dev Box** from the left-hand pane, click on **Network Connections (1)**, and then click on **+Create (2)**.
+
+2. Now under the **Create a network connection (1)** window, add the below details and then click on **Create (6)**.
+- **Domain join type**: Azure active directory join.
+-  
+
+3. Now from left-hand side pane, click on **Networking** under Dev box configuration, and then click on **+ Add**.
 
       ![](media/e117.png)
-  
-2. Now under _Add network connection_, select the **fabrikam-connection-<inject key="location" enableCopy="false" /> (1)** for Network Connection from the drop-down and then click on **Add (2)**.
+
+4. Now under _Add network connection_, select the **fabrikam-connection-<inject key="location" enableCopy="false" /> (1)** for Network Connection from the drop-down and then click on **Add (2)**.
 
       ![](media/Implement-dev-b0x-hol1-1.png)
 
