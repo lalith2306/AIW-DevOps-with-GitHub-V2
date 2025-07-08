@@ -10,6 +10,10 @@ Microsoft Dev Box provides high-performance, cloud-based development workstation
 
 This lab is designed to provide participants with practical experience in setting up and managing Microsoft Dev Box environments to enhance development workflows. Participants will learn how to configure cloud-based development workstations by creating and defining Dev Boxes, establishing network connections, and accessing them through the portal. This hands-on approach will help streamline development processes, making it easier to manage resources and collaborate on projects.
 
+## Pre-requisites
+
+- Should have basic knowledge and understanding about Microsoft Dev Box.
+
 ## Architecture
 
 The architecture for **Implement Dev Box** integrates several components to deliver a cloud-based development environment. Central to this is the **Microsoft Dev Box**, a high-performance workstation configured with specific compute, storage, and image settings defined in the **Dev Box Definition**. **Network Connections** link the Dev Boxes to Azure virtual networks, ensuring seamless integration. The **Dev Box Pool** manages multiple Dev Boxes across projects, while the **Microsoft Dev Box Portal** serves as the interface for users to create, manage, and access their Dev Boxes. This setup provides an efficient, scalable, and secure development experience in the cloud.
