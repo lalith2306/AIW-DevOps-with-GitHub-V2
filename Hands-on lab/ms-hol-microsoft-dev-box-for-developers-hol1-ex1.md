@@ -66,12 +66,15 @@ In this task, you'll configure the network connection using Dev Center. Network 
 2. Now under the **Create a network connection** window, except **Name** these below details will be there by default.
 
 - **Domain join type**: Azure active directory join .
+
 -  **Subscription**: CloudLabs AIW Shared-017
+
 -  **Resource group**: contoso-traders - 178355
--  **Name**: fabrikam-connection-<inject key="location" enableCopy="false" />
+
+-  **Name**: fabrikam-connection-<inject key="location" enableCopy="false" /> (1)
 -  **Virtual network**: labvm-vnet1-<inject key="location" enableCopy="false" />
 -  **Subnet**: subnet1
--  Click on **Review+create**
+-  Click on **Review+create(2)**
 
       ![](media/configure-network-connection.png)
 
