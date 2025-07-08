@@ -59,7 +59,7 @@ In this task, you'll create a Dev box definition. Dev box definitions define the
 
 In this task, you'll configure the network connection using Dev Center. Network connections determine the region into which dev boxes are deployed and allow them to be connected to your existing virtual networks.
 
-1. Now in **Microsoft Dev Box** from the left-hand pane, click on **Network Connections (1)**, and then click on **+Create (2)**. 
+1. Now in **Microsoft Dev Box** from the left-hand pane, click on **Network Connections (1)**, and then click on **+Create(2)**. 
 
       ![](media/create-network-connection.png)
 
