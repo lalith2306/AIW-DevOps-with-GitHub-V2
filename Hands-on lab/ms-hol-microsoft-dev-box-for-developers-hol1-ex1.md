@@ -59,11 +59,20 @@ In this task, you'll create a Dev box definition. Dev box definitions define the
 
 In this task, you'll configure the network connection using Dev Center. Network connections determine the region into which dev boxes are deployed and allow them to be connected to your existing virtual networks.
 
-1. Now in **Microsoft Dev Box** from the left-hand pane, click on **Network Connections (1)**, and then click on **+Create (2)**.
+1. Now in **Microsoft Dev Box** from the left-hand pane, click on **Network Connections (1)**, and then click on **+Create (2)**. 
+      ![](media/create-network-connection.png)
 
-2. Now under the **Create a network connection (1)** window, add the below details and then click on **Create (6)**.
-- **Domain join type**: Azure active directory join.
--  
+2. Now under the **Create a network connection** window, except **Name** these below details will be there by default.
+
+- **Domain join type**: Azure active directory join .
+-  **Subscription**: CloudLabs AIW Shared-017
+-  **Resource group**: contoso-traders - 178355
+-  **Name**: fabrikam-connection-<inject key="location" enableCopy="false" />
+-  **Virtual network**: labvm-vnet1-<inject key="location" enableCopy="false" />
+-  **Subnet**: subnet1
+-  Click on **Review+create**
+
+      ![](media/configure-network-connection.png)
 
 3. Now from left-hand side pane, click on **Networking** under Dev box configuration, and then click on **+ Add**.
 
@@ -91,7 +100,7 @@ In this task, you'll create a Dev pool using a previously configured network con
 
    - Name: **devbox-pool-<inject key="DeploymentID" enableCopy="false" />** **(1)**
 
-   - Dev box definition: **devboxdef-01** **(2)**
+   - Dev box definition: **devboxdef01** **(2)**
 
    - Network Connection: **fabrikam-connection-<inject key="location" enableCopy="false" />** **(3)**
 
